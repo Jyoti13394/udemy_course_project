@@ -2,6 +2,7 @@ import pytest
 
 from BaseDriver.BaseClass import BaseClass
 from page_object_model.home_page import HomePage
+from page_object_model.shop_page import ShopPage
 
 
 class TestOne(BaseClass):
@@ -11,5 +12,11 @@ class TestOne(BaseClass):
         print("Browser Opened successfully")
 
     def test_fill_form(self):
-        hp = HomePage(self.driver)
-        hp.fill_details()
+        hp = HomePage(self.driver, self.path)
+        assert "Success" in hp.fill_details()
+        print("Form filled succesfully")
+
+    def test_add_to_cart(self):
+        sp = ShopPage(self.driver, self.path)
+        sp.select_product()
+
