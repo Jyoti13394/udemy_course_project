@@ -3,6 +3,7 @@ from selenium.webdriver.support.select import Select
 
 from BaseDriver.BaseClass import BaseClass
 from Utilities import *
+from page_object_model.shop_page import ShopPage
 
 
 class HomePage:

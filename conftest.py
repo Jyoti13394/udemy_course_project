@@ -1,5 +1,7 @@
 from selenium import webdriver
 import pytest
+from selenium.webdriver.support.wait import WebDriverWait
+
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach",True)
 chrome_options.add_argument("--start-maximized")
@@ -17,7 +19,9 @@ def setup(request):
     else:
         driver = webdriver.Edge(options=edge_options)
     driver.get('https://rahulshettyacademy.com/angularpractice/')
+    wait = WebDriverWait(driver, 10)
     request.cls.driver = driver
+    request.cls.wait = wait
     #yield
     #driver.close()
 

@@ -9,6 +9,7 @@ class ShopPage:
 
     product_list = (By.XPATH, "//div[@class='card h-100']")
     checkout_button = (By.XPATH, "//a[@class= 'nav-link btn btn-primary']")
+    proceed_button = (By.XPATH, "//button[@class = 'btn btn-success']")
 
     def select_product(self):
         ut = Utilities
@@ -19,4 +20,9 @@ class ShopPage:
                 product.find_element(By.XPATH, "div[2]/button[@class = 'btn btn-info']").click()
 
         self.driver.find_element(*ShopPage.checkout_button).click()
+        assert input_data['Product'] in self.driver.find_element(By.XPATH, "//a[text() = 'Blackberry']").text
+        print("Required Product Added Succesfully")
+        self.driver.find_element(*ShopPage.proceed_button).click()
+        print("Proceeded to Final Order Page")
+
 
