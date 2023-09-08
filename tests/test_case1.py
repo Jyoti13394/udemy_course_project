@@ -17,12 +17,11 @@ class TestOne(BaseClass):
         assert "Success" in hp.fill_details()
         print("Form filled succesfully")
 
-
     def test_add_to_cart(self):
         sp = ShopPage(self.driver, self.path)
         sp.select_product()
 
     def test_final_order(self):
         cp = ConfirmPage(self.driver, self.path, self.wait)
-        assert "Success! Thank You!" in cp.select_country()
+        assert "Success! Thank you!" in cp.select_country()
 
