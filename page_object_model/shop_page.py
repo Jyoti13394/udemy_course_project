@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
-from Utilities import *
+
+from Utilities import Utilities
 
 
 class ShopPage:
@@ -13,6 +14,7 @@ class ShopPage:
 
     def select_product(self):
         ut = Utilities
+        log = ut.getLogger(self)
         input_data = ut.data_from_excel_to_dict(self.path)
         list_of_product = self.driver.find_elements(*ShopPage.product_list)
         for product in list_of_product:
@@ -21,8 +23,8 @@ class ShopPage:
 
         self.driver.find_element(*ShopPage.checkout_button).click()
         assert input_data['Product'] in self.driver.find_element(By.XPATH, "//a[text() = 'Blackberry']").text
-        print("Required Product Added Succesfully")
+        log.info("Required Product Added Succesfully")
         self.driver.find_element(*ShopPage.proceed_button).click()
-        print("Proceeded to Final Order Page")
+        log.info("Proceeded to Final Order Page")
 
 

@@ -19,8 +19,7 @@ class ConfirmPage(BaseClass):
 
     def select_country(self):
         self.driver.find_element(*ConfirmPage.input_country).send_keys("IND")
-        self.wait.until(expected_conditions.presence_of_element_located((By.LINK_TEXT,"India")))
-        self.driver.find_element(By.LINK_TEXT, "India").click()
+        self.verify_link_presence(By.LINK_TEXT, "India").click()
         time.sleep(2)
         #self.driver.find_element(*ConfirmPage.checkbox).click()
         self.driver.find_element(*ConfirmPage.purchase_button).click()

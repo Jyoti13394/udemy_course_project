@@ -1,0 +1,42 @@
+09/09/2023 11:36:23 AM : select_product : INFO : Required Product Added Succesfully
+09/09/2023 11:36:23 AM : select_product : INFO : Proceeded to Final Order Page
+09/09/2023 11:37:30 AM : test_invoke_url : INFO : Browser Opened successfully
+09/09/2023 11:37:30 AM : fill_details : INFO : Entering name:Jyoti
+09/09/2023 11:37:30 AM : fill_details : INFO : Entering email:abc@gmail.com
+09/09/2023 11:37:30 AM : fill_details : INFO : Entering password:123456
+09/09/2023 11:37:30 AM : fill_details : INFO : Entering gender:Female
+09/09/2023 11:37:31 AM : fill_details : INFO : Form fill message:×
+Success! The Form has been submitted successfully!.
+09/09/2023 11:37:31 AM : test_fill_form : INFO : Form filled succesfully
+09/09/2023 11:37:31 AM : select_product : INFO : Required Product Added Succesfully
+09/09/2023 11:37:31 AM : select_product : INFO : Proceeded to Final Order Page
+09/09/2023 11:46:21 AM : test_invoke_url : INFO : Browser Opened successfully
+09/09/2023 11:46:22 AM : fill_details : INFO : Entering name:Jyoti
+09/09/2023 11:46:22 AM : fill_details : INFO : Entering email:abc@gmail.com
+09/09/2023 11:46:22 AM : fill_details : INFO : Entering password:123456
+09/09/2023 11:46:22 AM : fill_details : INFO : Entering gender:Female
+09/09/2023 11:46:22 AM : fill_details : INFO : Form fill message:×
+Success! The Form has been submitted successfully!.
+09/09/2023 11:46:24 AM : test_fill_form : INFO : Form filled succesfully
+09/09/2023 11:46:24 AM : select_product : INFO : Required Product Added Succesfully
+09/09/2023 11:46:24 AM : select_product : INFO : Proceeded to Final Order Page
+09/09/2023 02:34:39 PM : test_invoke_url : INFO : Browser Opened successfully
+09/09/2023 02:34:39 PM : fill_details : INFO : Entering name:Jyoti
+09/09/2023 02:34:39 PM : fill_details : INFO : Entering email:abc@gmail.com
+09/09/2023 02:34:39 PM : fill_details : INFO : Entering password:123456
+09/09/2023 02:34:39 PM : fill_details : INFO : Entering gender:Female
+09/09/2023 02:34:39 PM : fill_details : INFO : Form fill message:×
+Success! The Form has been submitted successfully!.
+09/09/2023 02:34:40 PM : test_fill_form : INFO : Form filled succesfully
+09/09/2023 02:34:40 PM : select_product : INFO : Required Product Added Succesfully
+09/09/2023 02:34:40 PM : select_product : INFO : Proceeded to Final Order Page
+09/09/2023 02:54:54 PM : test_invoke_url : INFO : Browser Opened successfully
+09/09/2023 02:54:54 PM : fill_details : INFO : Entering name:Jyoti
+09/09/2023 02:54:54 PM : fill_details : INFO : Entering email:abc@gmail.com
+09/09/2023 02:54:54 PM : fill_details : INFO : Entering password:123456
+09/09/2023 02:54:54 PM : fill_details : INFO : Entering gender:Female
+09/09/2023 02:54:55 PM : fill_details : INFO : Form fill message:×
+Success! The Form has been submitted successfully!.
+09/09/2023 02:54:55 PM : test_fill_form : INFO : Form filled succesfully
+09/09/2023 02:54:55 PM : select_product : INFO : Required Product Added Succesfully
+09/09/2023 02:54:55 PM : select_product : INFO : Proceeded to Final Order Page
